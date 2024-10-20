@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "packageManager": "pnpm@9.0.5",
+  "description": "Ares Chang 的小笔记",
+  "author": {
+    "name": "Ares Chang",
+    "email": "areschang114@qq.com",
+    "url": "https://github.com/Ares-Chang"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "vitepress",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.1.3",
+    "vitepress-auto-sidebar-plugin": "^0.2.4"
+  }
+}
